@@ -8,7 +8,7 @@ The dataset contained 4 tables in CSV format; the “Orders” table contained t
 After loading the CSV files into Microsoft Excel worksheet, I merged the orders, pizza types and pizza table to order details table using the VLOOKUP function in Excel. A total of 48625 rows and 12 columns namely date, time, pizza_id, pizza_type_id, name, size, category, ingredients, price, order_details_id, order_id, quantity. I added a new column (revenue) to ascertain the total sales. I extracted day from date in order to see a breakdown of sales/orders per day using the WEEKDAY function in Excel.
 
 Next thing I did was to create six different pivot tables to quickly summarize and analyze the data in detail.
-# Insights.
+#Insights.
 1.KPIs
 There is a total number of 21,350 Orders, the total Revenue generated is $817,860, the average order value is $38.31 and the total number of pizzas sold is 49,574.
 Plato Pizza has more Large(L), Medium(M) and Small(S) size pizza orders than the Xtra-large(XL) and Xtra-xtra-large(XXL) size order. Classic pizza category has high number of orders than supreme, veggie and chicken.
@@ -18,6 +18,6 @@ In order to fully understand the days Plato pizza is the busiest I created a lin
 A total of 23,817 pizzas are made during peak periods with 13,189 pizzas around 12 to 1pm and 10,628 pizzas around 5 to 6pm.
 3. What are our best and worst selling pizzas?
 I created a Bar chart that shows the five best selling pizzas by the quantity sold and another Bar chart that shows the five worse selling pizzas by the quantity sold. This would help stakeholders to clearly understand the particular pizzas to look out for which could aid effective decision making. The top five best selling pizzas are the Classic deluxe pizza, Barbecue chicken pizza, Hawaiian pizza, Pepperoni pizza and, Thai pizza.
-Recommendations
+# Recommendations
 Increase the amount of staff during peak periods and reduce them during low periods to increase efficiency and reduce costs.
 Introduce Sales and Discounts during low periods.
